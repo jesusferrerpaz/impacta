@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impacta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="publicidad">
+        MÁS PUBLICIDAD <strong>SUSCRÍBETE A NUESTRA NEWSLETTER </strong><a href="#">Clic aquí</a>
+    </div>
+    <header>
+        <div class="header-content">
+            <h1>impacta<span class="red-exclamation">!</span></h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+    <!--CARRUSEL Swiper-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/edit1.webp"></div>
+          <div class="swiper-slide"><img src="img/edit2.webp"></div>
+          <div class="swiper-slide"><img src="img/edit3.webp"></div>
+          <div class="swiper-slide"><img src="img/edit4.webp"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!--BLOQUES-->
+      <div class="bloques">
+        <section id="creatividad" class="bloque">
+            <img src="img/bloq1.jpg">
+            <h2>Creatividad sin límites para impulsar tu marca</h2>
+            <p>Transformamos ideas en experiencias inolvidables...</p>
+        </section>
+        <section id="agilidad" class="bloque">
+            <img src="img/bloq2.jpg">
+            <h2>Agilidad y eficiencia en cada proyecto</h2>
+            <p>Respuesta rápida y eficiente...</p>
+        </section>
+        <section id="tecnologia" class="bloque">
+            <img src="img/bloq3.jpg">
+            <h2>Tecnología para resultados óptimos</h2>
+            <p>Innovación tecnológica para potenciar tus campañas...</p>
+        </section>
+        <section id="equipo" class="bloque">
+            <img src="img/bloq4.jpg">
+            <h2>Equipo de expertos apasionados y dedicados</h2>
+            <p>Profesionales apasionados dedicados a impulsar tu marca...</p>
+        </section>
+      </div>
+      <!--HUMO-->
+      <div class="seccion-humo">
+        <div class="contenido">
+            <h2>Vendemos humo con mucha pasión</h2>
+        </div>
+        <div class="imagen-humo">
+            <img src="img/quote.png" alt="humo">
+        </div>
+      </div>
+        <!--CLIENTES-->
+      <div class="clientes">
+        <h2>¿Nuestros Clientes?</h2>
+        <div class="logos">
+            <div class="logo">
+                <img src="logos/Recurso 8.svg" alt="Cliente 1">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 7.svg" alt="Cliente 2">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 11.svg" alt="Cliente 3">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 9.svg" alt="Cliente 4">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 10.svg" alt="Cliente 5">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 12.svg" alt="Cliente 6">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 6.svg" alt="Cliente 7">
+            </div>
+            <div class="logo-doble">
+                <img src="logos/Recurso 3.svg" alt="Cliente 8">
+            </div>
+            <div class="logo-doble">
+                <img src="logos/Recurso 1.svg" alt="Cliente 9">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 5.svg" alt="Cliente 10">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 2.svg" alt="Cliente 11">
+            </div>
+            <div class="logo">
+                <img src="logos/Recurso 4.svg" alt="Cliente 12">
+            </div>
+        </div>
+      </div>
+      <!--FORMULARIO-->
+      <form action="#" method="post">
+        <div class="formulario">
+            <section class="formulario-contacto">
+                <h2>Envíanos tu mensaje</h2>
+            <div class="campo">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="campo">
+                <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
+                <input type="plan" id="planeta" name="planeta" placeholder="Planeta de Nacimiento">
+            </div>
+            <div class="campo">
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Mensaje" required></textarea>
+            </div>
+            <p>Sus datos serán tratados por IMPACTA para la atención de las consultas o solicitudes de información realizadas.
+                Puede ejercer sus derechos conforme a lo dispuesto en la Política de Privacidad. Más información aquí.</p>
+            </section>
+            <div class="campo-opciones">
+                <h3>Selecciona solo un resultado:</h3>
+                <input type="radio" name="resultado" value="feliz" required><label> Quiero ser feliz</label>
+                <input type="radio" name="resultado" value="rico"><label> Quiero ser rico</label>
+                <input type="radio" name="resultado" value="avion"><label> Quiero ser un avión</label>
+                <input type="radio" name="resultado" value="dormir"><label> Quiero dormir todo el día</label>
+                <div class="campo check">
+                    <label><input type="checkbox" name="terminos" required> He leído y acepto el aviso legal y la política de privacidad</label>
+                    <button type="submit" class="boton-enviar">Enviar mensaje</button>
+                </div>
+            </div>
+        </div>
+      </form>
+      <div class="publicidad-2">
+        MÁS PUBLICIDAD <strong>SUSCRÍBETE A NUESTRA NEWSLETTER </strong><a href="#">Clic aquí</a>
+    </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-contenido">
+            <div class="footer-seccion">
+                <h4>Contacto y Preguntas Frecuentes</h4>
+                <ul>
+                    <li><a href="#num">+ (34) 666 666 666</a></li>
+                    <li><a href="#form">FORMULARIO DE CONTACTO</a></li>
+                    <li><a href="#faq">PREGUNTAS FRECUENTES</a></li>
+                    <li><a href="#recla">LIBRO DE RECLAMACIONES</a></li>
+                    <li><a href="#conoce">CONOCE NUESTRA MANERA DE TRABAJAR</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h4>Nosotros</h4>
+                <ul>
+                    <li><a href="#categorias">CATEGORIAS</a></li>
+                    <li><a href="#novedades">NOVEDADES</a></li>
+                    <li><a href="#ofertas">OFERTAS</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h4>Proyectos</h4>
+                <ul>
+                    <li><a href="#calidades">CALIDADES</a></li>
+                    <li><a href="#revisiones">REVISIONES</a></li>
+                    <li><a href="#renovacion">RENOVACION</a></li>
+                    <li><a href="#ventas">VENTAS</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="#formulario">FORMULARIO DE CONTACTO</a></li>
+                </ul>
+            </div>
+            <div class="footer-seccion">
+                <h3>Pago Seguro</h3>
+                <div class="pagos">
+                    <div class="pago"><a href="#visa"><img src="logos/Recurso 17.svg"></a></div>
+                    <div class="pago"><a href="#paypal"><img src="logos/Recurso 18.svg"></a></div>
+                    <div class="pago"><a href="#amex"><img src="logos/Recurso 19.svg"></a></div>
+                    <div class="pago"><a href="#master"><img src="logos/Recurso 20.svg"></a></div>
+                </div>
+            </div>
+            <div class="footer-seccion servicios">
+                <h4>Servicios</h4>
+            </div>
+            <div class="footer-seccion">
+                <h4>Redes Sociales</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Impacta. 2024</p>
+        </div>
+    </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/functions.js"></script>
+</body>
+</html>
